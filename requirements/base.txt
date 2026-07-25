@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+streamlit
+duckdb
+pandas
+pydantic
+pydantic-settings
+python-dotenv
+apscheduler
+loguru
+rich
+httpx
+requests

@@ -16,6 +16,9 @@ class Settings(BaseSettings):
 
     # Logging
     log_level: str = "INFO"
+    log_retention_days: int = 30
+    log_rotation: str = "10 MB"
+    log_json: bool = False
     log_path: str = "./logs"
 
     # Scheduler
